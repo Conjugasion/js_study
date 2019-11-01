@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "657463",
+      "name": "餐饮",
+      "font_class": "canyin",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "657465",
+      "name": "景点",
+      "font_class": "jingdian",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "657472",
+      "name": "住宿",
+      "font_class": "zhusu",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "657981",
+      "name": "餐厅",
+      "font_class": "canting",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "658030",
+      "name": "健身",
+      "font_class": "jianshen",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "666898",
+      "name": "娱乐",
+      "font_class": "yule",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    }
+  ]
+}

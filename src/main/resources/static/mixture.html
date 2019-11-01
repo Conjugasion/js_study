@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mixture</title>
+    <style type="text/css">
+        * {margin: 0;padding: 0}
+        #urlBox {width: 300px;height: 200px;font-size: 24px;margin: 100px;border: 5px solid blue;text-align: center;line-height: 200px}
+        #urlBox a {color: crimson;text-decoration: line-through;text-decoration-color: black;display: block}
+        #urlBox a:hover {color: purple;text-decoration: overline;text-decoration-color: black;}
+        .rowBox {width: 100px;height: 100px;background: burlywood;text-align: center;line-height: 100px;float: left}
+        .box1 {width: 2800px;height: 2000px;border: 5px solid blue;background: burlywood url("../picture/zoro.jpg") no-repeat right bottom}
+        #pType {width: 300px;height: 200px;border: 5px solid black;white-space: normal}
+        #insert {width: 200px;height: 200px;background: aquamarine;font-size: 50px;white-space:nowrap;text-overflow: ellipsis;overflow: hidden;}
+        table
+        {
+            margin: 200px;
+            width: 100px;
+            height: 200px;
+            border: 5px black dashed;
+            border-collapse:collapse;    /*取消边框间距*/
+            border-top: none;
+        }
+        td
+        {
+            border: 1px black solid;
+            border-top: none;
+        }
+        .tran {width: 200px;height: 300px;background: yellow;color: darkcyan;display: inline}
+
+    </style>
+</head>
+<body>
+<div class="rowBox">
+    <a href="#" class="rowUrl">联系我们</a>
+</div>
+<div class="rowBox">
+    <a href="#" class="rowUrl">友情链接</a>
+</div>
+<div class="rowBox">
+    <a href="#" class="rowUrl">诚聘英才</a>
+</div>
+<div id="insert">11111111111111</div>
+
+<img src="../picture/screenshot.jpg" height="194" width="258" alt="屏幕截图" id="screen"/>
+<input type="text" value="请输入内容...">
+<input type="button" value="提交">
+
+<div class="box1">
+    <p id="pType">欢迎          你好       hello world
+       js红红火火恍恍惚惚何厚烨
+    </p>
+</div>
+
+<div id="urlBox">
+    <a href="https://www.baidu.com">百度</a>
+    <a href="https://www.google.com">谷歌</a>
+</div>
+
+<div class="tran">块转内联</div>
+<div class="tran">块转内联</div>
+
+<table class="tableBox">
+    <tr>
+        <td rowspan="2">1-1</td>
+        <td>1-2</td>
+    </tr>
+    <tr>
+        <!--<td>2-1</td>-->
+        <td>2-2</td>
+    </tr>
+</table>
+
+</body>
+</html>
