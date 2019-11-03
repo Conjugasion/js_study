@@ -10,7 +10,7 @@ public class captain {
         String[] s = sc.nextLine().split(" ");
         int[] num = new int[s.length];
         for (int i = 0; i < s.length; i++) {
-            num[i] = Integer.valueOf(s[i]);
+            num[i] = Integer.parseInt(s[i]);
         }
         for (int i = 1; i < num.length; i++) {
             for (int j = i-1; j >= 0; j--) {
