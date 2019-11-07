@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <style type="text/css">
+        * {margin: 0;padding: 0;}
+        form {width: 600px;border: 1px green solid;margin: 0 auto;padding: 10px;}
+        p {margin: 10px;}
+        fieldset {margin-bottom: 10px;}
+        .fs1 {border: #DD4A68 1px dashed;}
+            .lg1 {border: #795da3 1px solid;padding: 3px;text-align:center;}
+    </style>
+</head>
+<body>
+<form>
+    <fieldset class="fs1">
+        <legend class="lg1">用户登录</legend>
+        <p><label for="name">姓名:</label> <input type="text" id="name"></p>
+        <p>密码: <input type="password"></p>
+        <p><input type="submit"> <input type="reset"></p>
+    </fieldset>
+    <fieldset>
+        <legend>用户注册</legend>
+        <p>性别: <label for="male">男 </label><input type="radio" name="sex" id="male"> <label for="female">女 </label><input type="radio" name="sex" id="female"></p>
+        <p>爱好: 阅读 <input type="checkbox" name="hobby"> 运动 <input type="checkbox" name="hobby"> 旅游 <input type="checkbox" name="hobby"></p>
+        <p>
+            出生年月:
+            <select>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+            </select> 年
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select> 月
+        </p>
+    </fieldset>
+</form>
+</body>
+</html>

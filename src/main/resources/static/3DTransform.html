@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3DTransform</title>
+    <style type="text/css">
+        * {margin: 0;padding: 0;}
+        .box {width: 906px;height: 300px;background-color: #b3d4fc;margin: 100px auto;perspective: 1000px;}
+        /*p {width: 200px;height: 200px;border: black 1px solid;float: left;margin: 50px;transform-style: preserve-3d;!*perspective: 1000px;*!}*/
+        span {width: 200px;height: 200px;background-color: #DD4A68;float: left;margin: 50px;transition: all 2s;transform-style: preserve-3d;}
+        span:nth-of-type(1):hover {transform: rotateX(45deg);}
+        span:nth-of-type(2):hover {transform: rotateY(45deg);}
+        span:nth-of-type(3):hover {transform: rotateZ(45deg);}
+    </style>
+</head>
+<body>
+<div class="box">
+    <h1>asdasda</h1>
+    <span>X轴旋转</span>
+    <span>Y轴旋转</span>
+    <span>Z轴旋转</span>
+</div>
+
+</body>
+</html>

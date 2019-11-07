@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style type="text/css">
+        * {margin: 0;padding: 0;text-align: center}
+        html,body {height: 100%;}
+        .header {width: 100%;height: 10%;background-color: #63a35c;margin: 0 auto;}
+            nav {width: 90%;height: 80%;background-color: #b3d4fc;position: relative;top: 10%;bottom: 10%;left: 5%;right: 5%;}
+        section {width: 70%;height: 80%;background-color: #666666;float: left;}
+            article {width: 90%;height: 90%;background-color: #9a6e3a;position: relative;top: 5%;bottom: 5%;left: 5%;right: 5%;}
+                article header {width: 90%;height: 10%;background-color: rosybrown;position: absolute;top: 5%;left: 5%;right: 5%;}
+                p {width: 90%;height: 66%;background-color: cornflowerblue;position: absolute;top: 17%;left: 5%;right: 5%;}
+                article footer {width: 90%;height: 10%;background-color: #ee9900;position: absolute;top: 85%;left: 5%;right: 5%;}
+        aside {width: 30%;height: 80%;background-color: #0086b3;overflow: hidden}
+        .footer {width: 100%;height: 10%;background-color: darksalmon;}
+    </style>
+</head>
+<body>
+<header class="header">
+    <nav>导航栏</nav>
+</header>
+<section>
+    <article>
+        <header>文章题目</header>
+        <p>Hello World</p>
+        <footer>作者</footer>
+    </article>
+</section>
+<aside>笔记</aside>
+<footer class="footer">联系人</footer>
+</body>
+</html>
